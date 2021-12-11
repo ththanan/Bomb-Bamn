@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Audio/jump3.wav" type="AudioStream" id=1]
+[ext_resource path="res://Audio/JumpSound.gd" type="Script" id=2]
+
+[node name="JumpSound" type="Node"]
+script = ExtResource( 2 )
+
+[node name="JumpSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 1 )
+volume_db = 2.0
